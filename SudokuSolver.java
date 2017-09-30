@@ -31,29 +31,11 @@ public class SudokuSolver {
 	}
 
 	/**
-	 * The loadSudoku method prompts the user for the path and filename of the
-	 * sudoku puzzle, formatted as a .txt, to be solved and loads and converts the
-	 * .txt file into a Sudoku object. The .txt file should be formatted as follows:
-	 * The first line of the file contains two integers, N and M, separated by a
-	 * space. N is the dimension of the puzzle, square. M is the size of the square
-	 * sub-grids. Following the first line will be N lines, each containing N digits
-	 * and dashes to represent the puzzle. Each board will consist of a matrix where
-	 * a dash represents an unknown value and digits represent known values. The
-	 * example below shows the input format:
-	 * 
-     * 9 3
-     * 1-5--46--
-     * --72---31
-     * 4--63--9-
-     * ---31-825
-     * 9-------4
-     * 851-72---
-     * -7--56--8
-     * 34---71--
-     * --89--2-6	 * 
+	 * Prompts the user for a .txt file containing a properly formatted sudoku puzzle and loads the file 
+	 * into the program.
 	 * 
 	 * @param None.
-	 * @return Sudoku Sudoku object as read from specified .txt file.
+	 * @return Sudoku object as read from specified .txt file.
 	 * 
 	 */
 	public static Sudoku loadSudoku() {
